@@ -25,8 +25,9 @@
     width: 1000px;
     padding: 200px 440px;
 }
+/*about discount part*/
 .discount{
-    margin-top: 50px;
+    margin-top: 150px;
     font-family: 'Inter', sans-serif;
 }
 .discount-section{
@@ -51,3 +52,71 @@
     font-weight: 700;
     margin-top: 5px;
 }
+/*about welcome section*/
+section{
+    margin-top: 150px;
+}
+.welcome-banner{
+    display: flex;
+    padding: 40px 40px 40px 200px;
+    align-items: center;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+.twentypic{
+    width: 600px;
+}
+.welcome-title{
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+.welcome-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.join{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.welcome{
+    width: 1050px;
+}
+/*place section*/
+.offer-section{
+    padding: 100px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.offer-announcement{
+    font-size: 42px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.redmama{
+    color: #F00; 
+}
+.joinn{
+    color: #FFF;
+    font-size: 25px;
+    display: inline-flex;
+    margin-top: 40px;
+    padding: 24px 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #F00;
+    border-color: #F00;
+}
+/*best offer section*/
